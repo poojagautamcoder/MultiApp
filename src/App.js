@@ -46,7 +46,7 @@ function App() {
             onChange={(e) => handleEditInputChange(e)}
             onKeyDown={handlekeydown}
           />
-          {/* <button onClick={handlesubmit}>Update</button> */}
+          <button onClick={handlesubmit}>Update</button>
         </>
       ) : (
         <>
